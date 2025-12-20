@@ -1,16 +1,46 @@
-## Hi there 👋
+# 👋 Hi, I'm Rama (AWS DevOps Engineer)
 
-<!--
-**velishalaramm/velishalaramm** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🚀 AWS DevOps Engineer with 4+ years of experience in
+Cloud Infrastructure, CI/CD, Automation & Security.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🧑‍💻 About Me
+- 💼 Working as DevOps Engineer
+- ☁️ AWS | Terraform | Jenkins | Kubernetes
+- 🔐 Security, Automation, Monitoring
+- 📍 Hyderabad, India
+
+---
+
+## 🛠️ Skills
+- Cloud: AWS (EC2, S3, IAM, VPC, ALB, CloudFront, WAF)
+- IaC: Terraform
+- CI/CD: Jenkins, GitHub Actions
+- Containers: Docker, Kubernetes
+- OS & Scripting: Linux, Bash, Python
+- Monitoring: CloudWatch
+
+---
+
+## 📌 Projects
+🔹 **AWS Three-Tier Architecture**
+- Designed secure VPC with ALB, Auto Scaling
+- Terraform based infra
+- WAF + CloudFront integration
+
+🔹 **CI/CD Pipeline**
+- Jenkins pipeline for Java app
+- Docker image build & deploy
+- Auto rollback on failure
+
+🔹 **Cost Optimization**
+- Lambda to stop/start EC2
+- Saved ~30% AWS billing
+
+---
+
+## 📫 Contact
+- 📧 Email: velishalaramm@gmail.com
+- 🔗 LinkedIn: www.linkedin.com/in/velishala-devops
+- 🐙 GitHub: https://github.com/velishalaramm
