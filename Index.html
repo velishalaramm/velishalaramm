@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarity Style Interiors</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        header {
+            background: #111;
+            color: #fff;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header h1 {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: #fff;
+            margin-left: 20px;
+            text-decoration: none;
+        }
+
+        .hero {
+            height: 90vh;
+            background: url('https://images.unsplash.com/photo-1505691938895-1758d7feb511') no-repeat center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 50px;
+            background: rgba(0,0,0,0.5);
+            padding: 20px;
+        }
+
+        section {
+            padding: 60px 50px;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .services {
+            display: flex;
+            gap: 20px;
+            justify-content: space-around;
+        }
+
+        .card {
+            padding: 20px;
+            background: #f4f4f4;
+            width: 30%;
+            text-align: center;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .contact form {
+            display: flex;
+            flex-direction: column;
+            width: 300px;
+            margin: auto;
+        }
+
+        input, textarea {
+            margin: 10px 0;
+            padding: 10px;
+        }
+
+        button {
+            padding: 10px;
+            background: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @media(max-width: 768px) {
+            .services {
+                flex-direction: column;
+            }
+
+            .card {
+                width: 100%;
+            }
+
+            .gallery {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Clarity Interiors</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>Luxury Interiors & Bespoke Furniture</h2>
+</div>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+        We design and create high-end bespoke interiors including kitchens,
+        bathrooms, and furniture tailored to your lifestyle.
+    </p>
+</section>
+
+<section id="services">
+    <h2 style="text-align:center;">Our Services</h2>
+    <div class="services">
+        <div class="card">
+            <h3>Kitchens</h3>
+            <p>Custom-designed luxury kitchens built to perfection.</p>
+        </div>
+        <div class="card">
+            <h3>Furniture</h3>
+            <p>Handcrafted furniture with premium materials.</p>
+        </div>
+        <div class="card">
+            <h3>Interiors</h3>
+            <p>Complete home interior solutions from design to installation.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2 style="text-align:center;">Gallery</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae">
+        <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9">
+        <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858">
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 style="text-align:center;">Contact Us</h2>
+    <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button>Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Clarity Interiors | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
